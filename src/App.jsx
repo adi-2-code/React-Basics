@@ -5,13 +5,18 @@ function App() {
  const [name,setName] = useState("");
   return (
     <>  
-    <h1>{count}</h1>  
+    <div>
+    <h1>COUNTER: {count}</h1>  
     <button onClick={() => setCount(count + 1)}>
       +
     </button>
     <button onClick={()=> setCount(count-1)}>
       -
     </button>
+    <button onClick={() => setCount(0)}>
+      Reset
+    </button>
+    </div>
     </>
   )
 }

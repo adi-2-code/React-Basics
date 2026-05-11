@@ -1,7 +1,29 @@
-button
-{
+button {
+  display: block;
+  margin: 100px auto 0 auto; 
   width: 200px;
   padding: 20px;
-  height: auto;
   background-color: teal;
+  align-content: center;
+}
+h1 {
+  text-align: center;
+  color: rgb(224, 249, 5);
+}
+div
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+body
+{
+  background-image: url(kj.gif);
+  background-repeat: no-repeat;  /* Stops the "multiple images" tiling */
+  background-position: center;   /* Centers it horizontally and vertically */
+  background-attachment: fixed;  /* Optional: Keeps it in place when scrolling */
+  background-size: cover;        /* Scales the image to fill the screen */
+  height: 100vh;
+  margin: 0;
 }
